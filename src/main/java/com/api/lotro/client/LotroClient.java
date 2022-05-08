@@ -5,8 +5,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.util.Collection;
-import java.util.List;
 
 @FeignClient(value = "lotro", url = "https://the-one-api.dev/v2")
 public interface LotroClient {

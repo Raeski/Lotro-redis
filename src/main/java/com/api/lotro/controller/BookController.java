@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class MoviesController {
+public class BookController {
 
     private final BookService bookService;
 
